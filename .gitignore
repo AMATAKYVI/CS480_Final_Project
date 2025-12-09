@@ -1,0 +1,109 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# virtualenv / venv
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# Model weights and checkpoints (ignore large weights)
+# Keep this if you want to track small prototypes; remove if you store weights in LFS
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+weights/
+checkpoints/
+
+# Hugging Face cache
+.cache/huggingface
+
+# Dataset folders (uncomment if you don't want datasets in git)
+# datasets/
+
+# Results / outputs (examples, metrics, visualizations)
+results/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS generated files
+ehthumbs.db
+Icon
